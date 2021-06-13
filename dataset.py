@@ -74,6 +74,7 @@ class Dataset(Dataset):
         return sample
 
     def process_meta(self, filename):
+        print(f"FILE PATH: {os.path.join(self.preprocessed_path, filename)}")
         with open(
             os.path.join(self.preprocessed_path, filename), "r", encoding="utf-8"
         ) as f:
