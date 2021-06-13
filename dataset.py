@@ -97,9 +97,9 @@ class Dataset(Dataset):
                 text.append(t)
                 raw_text.append(r)
 
-            for e in errors:
-                print(e)
-            sys.exit(0)
+            for i, e in enumerate(errors, 1):
+                print(f"ERROR {i}: {e}")
+            #sys.exit(0)
 
             return name, speaker, text, raw_text
 
