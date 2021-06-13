@@ -73,7 +73,7 @@ The supported datasets are
 We take LJSpeech as an example hereafter.
 
 ## Preprocessing
- 
+
 First, run 
 ```
 python3 prepare_align.py config/LJSpeech/preprocess.yaml
@@ -136,7 +136,7 @@ The loss curves, synthesized mel-spectrograms, and audios are shown.
 - run MFA on your data and add to preprocessed_data
 - create lexicon for your data
 - preprocess your data with `python3 preprocess.py config/YourLanguage/preprocess.yaml`
-- train your system with `python3 train -p config/YourLanguage/preprocess.yaml -m config/YourLanguage/model.yaml -t config/YourLanguage/train.yaml
+- train your system with `python3 train -p config/YourLanguage/preprocess.yaml -m config/YourLanguage/model.yaml -t config/YourLanguage/train.yaml`
 - synthesize speech with `python3 synthesize.py --text "YOUR_DESIRED_TEXT" --restore_step 300000 --mode single -p config/YourLanguage/preprocess.yaml -m config/YourLanguage/model.yaml -t config/YourLanguage/train.yaml`
 
 # Implementation Issues
