@@ -63,7 +63,7 @@ def _clean_text(text, cleaner_names):
     return text
 
 
-def _symbols_to_sequence(symbols)
+def _symbols_to_sequence(symbols):
     print(f"SYMBOLS: {symbols}")
     return [_symbol_to_id[s] for s in symbols.split() if _should_keep_symbol(s)]
 
