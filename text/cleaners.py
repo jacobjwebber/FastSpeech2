@@ -79,6 +79,26 @@ def transliteration_cleaners(text):
     return text
 
 
+def normalise_unicode(text):
+    text = text.strip()
+    text = re.sub(r"אַ", r"אַ", text)
+    text = re.sub(r"אָ", r"אָ", text)
+    text = re.sub(r"בּ", r"בּ", text)
+    text = re.sub(r"בֿ", r"בֿ", text)
+    text = re.sub(r"וּ", r"וּ", text)
+    text = re.sub(r"יִ", r"יִ", text)
+    text = re.sub(r"ײַ", r"ײַ", text)
+    text = re.sub(r"כּ", r"כּ", text)
+    text = re.sub(r"פּ", r"פּ", text)
+    text = re.sub(r"פֿ", r"פֿ", text)
+    text = re.sub(r"שׂ", r"שׂ", text)
+    text = re.sub(r"תּ", r"תּ", text)
+    text = re.sub(r"יי", r"ײ", text)
+    text = re.sub(r"וו", r"װ", text)
+    text = re.sub(r"וי", r"ױ", text)
+    return text.strip()
+
+
 def english_cleaners(text):
     '''Pipeline for English text, including number and abbreviation expansion.'''
     text = convert_to_ascii(text)
@@ -86,4 +106,9 @@ def english_cleaners(text):
     text = expand_numbers(text)
     text = expand_abbreviations(text)
     text = collapse_whitespace(text)
+    return text
+
+def yiddish_cleaners(text):
+    '''Pipeline for Yiddish text.'''
+    text = normalise_unicode(text)
     return text
