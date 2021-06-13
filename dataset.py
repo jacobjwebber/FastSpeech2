@@ -82,6 +82,7 @@ class Dataset(Dataset):
             text = []
             raw_text = []
             for line in f.readlines():
+                print(f"LINE: {line}")
                 n, s, t, r = line.strip("\n").split("|")
                 name.append(n)
                 speaker.append(s)
