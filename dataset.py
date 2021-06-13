@@ -1,6 +1,7 @@
 import json
 import math
 import os
+import sys
 
 import numpy as np
 from torch.utils.data import Dataset
@@ -74,6 +75,9 @@ class Dataset(Dataset):
         return sample
 
     def process_meta(self, filename):
+
+        errors = []
+
         print(f"FILE PATH: {os.path.join(self.preprocessed_path, filename)}")
         with open(
             os.path.join(self.preprocessed_path, filename), "r", encoding="utf-8"
@@ -84,11 +88,19 @@ class Dataset(Dataset):
             raw_text = []
             for line in f.readlines():
                 print(f"LINE: {line}")
+                if len(line.strip("\n").split("|")) != 4:
+                    errors.append(line)
+                    continue
                 n, s, t, r = line.strip("\n").split("|")
                 name.append(n)
                 speaker.append(s)
                 text.append(t)
                 raw_text.append(r)
+
+            for e in errors:
+                print(e)
+            sys.exit(0)
+
             return name, speaker, text, raw_text
 
     def reprocess(self, data, idxs):
