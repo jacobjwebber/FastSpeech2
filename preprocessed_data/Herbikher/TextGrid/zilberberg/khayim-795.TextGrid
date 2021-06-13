@@ -1,0 +1,256 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.4 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 8.4 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7 
+            text = "" 
+        intervals [2]:
+            xmin = 1.7 
+            xmax = 1.84 
+            text = "<unk>" 
+        intervals [3]:
+            xmin = 1.84 
+            xmax = 2.11 
+            text = "טו" 
+        intervals [4]:
+            xmin = 2.11 
+            xmax = 2.36 
+            text = "איך" 
+        intervals [5]:
+            xmin = 2.36 
+            xmax = 2.56 
+            text = "דען" 
+        intervals [6]:
+            xmin = 2.56 
+            xmax = 2.92 
+            text = "<unk>" 
+        intervals [7]:
+            xmin = 2.92 
+            xmax = 3.33 
+            text = "" 
+        intervals [8]:
+            xmin = 3.33 
+            xmax = 3.83 
+            text = "<unk>" 
+        intervals [9]:
+            xmin = 3.83 
+            xmax = 4.17 
+            text = "" 
+        intervals [10]:
+            xmin = 4.17 
+            xmax = 4.27 
+            text = "<unk>" 
+        intervals [11]:
+            xmin = 4.27 
+            xmax = 4.63 
+            text = "מיר" 
+        intervals [12]:
+            xmin = 4.63 
+            xmax = 4.99 
+            text = "" 
+        intervals [13]:
+            xmin = 4.99 
+            xmax = 5.29 
+            text = "<unk>" 
+        intervals [14]:
+            xmin = 5.29 
+            xmax = 5.53 
+            text = "דער" 
+        intervals [15]:
+            xmin = 5.53 
+            xmax = 5.78 
+            text = "<unk>" 
+        intervals [16]:
+            xmin = 5.78 
+            xmax = 6.43 
+            text = "לעדערער" 
+        intervals [17]:
+            xmin = 6.43 
+            xmax = 6.64 
+            text = "" 
+        intervals [18]:
+            xmin = 6.64 
+            xmax = 6.8 
+            text = "<unk>" 
+        intervals [19]:
+            xmin = 6.8 
+            xmax = 7.06 
+            text = "<unk>" 
+        intervals [20]:
+            xmin = 7.06 
+            xmax = 7.18 
+            text = "" 
+        intervals [21]:
+            xmin = 7.18 
+            xmax = 7.43 
+            text = "<unk>" 
+        intervals [22]:
+            xmin = 7.43 
+            xmax = 8.4 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 8.4 
+        intervals: size = 37 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7 
+            text = "sil" 
+        intervals [2]:
+            xmin = 1.7 
+            xmax = 1.84 
+            text = "spn" 
+        intervals [3]:
+            xmin = 1.84 
+            xmax = 2.03 
+            text = "ט" 
+        intervals [4]:
+            xmin = 2.03 
+            xmax = 2.11 
+            text = "ו" 
+        intervals [5]:
+            xmin = 2.11 
+            xmax = 2.21 
+            text = "א" 
+        intervals [6]:
+            xmin = 2.21 
+            xmax = 2.26 
+            text = "י" 
+        intervals [7]:
+            xmin = 2.26 
+            xmax = 2.36 
+            text = "ך" 
+        intervals [8]:
+            xmin = 2.36 
+            xmax = 2.42 
+            text = "ד" 
+        intervals [9]:
+            xmin = 2.42 
+            xmax = 2.49 
+            text = "ע" 
+        intervals [10]:
+            xmin = 2.49 
+            xmax = 2.56 
+            text = "ן" 
+        intervals [11]:
+            xmin = 2.56 
+            xmax = 2.92 
+            text = "spn" 
+        intervals [12]:
+            xmin = 2.92 
+            xmax = 3.33 
+            text = "sp" 
+        intervals [13]:
+            xmin = 3.33 
+            xmax = 3.83 
+            text = "spn" 
+        intervals [14]:
+            xmin = 3.83 
+            xmax = 4.17 
+            text = "sp" 
+        intervals [15]:
+            xmin = 4.17 
+            xmax = 4.27 
+            text = "spn" 
+        intervals [16]:
+            xmin = 4.27 
+            xmax = 4.43 
+            text = "מ" 
+        intervals [17]:
+            xmin = 4.43 
+            xmax = 4.52 
+            text = "י" 
+        intervals [18]:
+            xmin = 4.52 
+            xmax = 4.63 
+            text = "ר" 
+        intervals [19]:
+            xmin = 4.63 
+            xmax = 4.99 
+            text = "sp" 
+        intervals [20]:
+            xmin = 4.99 
+            xmax = 5.29 
+            text = "spn" 
+        intervals [21]:
+            xmin = 5.29 
+            xmax = 5.35 
+            text = "ד" 
+        intervals [22]:
+            xmin = 5.35 
+            xmax = 5.39 
+            text = "ע" 
+        intervals [23]:
+            xmin = 5.39 
+            xmax = 5.53 
+            text = "ר" 
+        intervals [24]:
+            xmin = 5.53 
+            xmax = 5.78 
+            text = "spn" 
+        intervals [25]:
+            xmin = 5.78 
+            xmax = 6.03 
+            text = "ל" 
+        intervals [26]:
+            xmin = 6.03 
+            xmax = 6.14 
+            text = "ע" 
+        intervals [27]:
+            xmin = 6.14 
+            xmax = 6.18 
+            text = "ד" 
+        intervals [28]:
+            xmin = 6.18 
+            xmax = 6.21 
+            text = "ע" 
+        intervals [29]:
+            xmin = 6.21 
+            xmax = 6.24 
+            text = "ר" 
+        intervals [30]:
+            xmin = 6.24 
+            xmax = 6.39 
+            text = "ע" 
+        intervals [31]:
+            xmin = 6.39 
+            xmax = 6.43 
+            text = "ר" 
+        intervals [32]:
+            xmin = 6.43 
+            xmax = 6.64 
+            text = "sp" 
+        intervals [33]:
+            xmin = 6.64 
+            xmax = 6.8 
+            text = "spn" 
+        intervals [34]:
+            xmin = 6.8 
+            xmax = 7.06 
+            text = "spn" 
+        intervals [35]:
+            xmin = 7.06 
+            xmax = 7.18 
+            text = "sp" 
+        intervals [36]:
+            xmin = 7.18 
+            xmax = 7.43 
+            text = "spn" 
+        intervals [37]:
+            xmin = 7.43 
+            xmax = 8.4 
+            text = "sp" 

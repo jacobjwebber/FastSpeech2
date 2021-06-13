@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.24 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.24 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.92 
+            text = "" 
+        intervals [2]:
+            xmin = 0.92 
+            xmax = 1.06 
+            text = "<unk>" 
+        intervals [3]:
+            xmin = 1.06 
+            xmax = 1.59 
+            text = "" 
+        intervals [4]:
+            xmin = 1.59 
+            xmax = 1.84 
+            text = "דעם" 
+        intervals [5]:
+            xmin = 1.84 
+            xmax = 2.24 
+            text = "אײדעם" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.24 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.92 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.92 
+            xmax = 1.06 
+            text = "spn" 
+        intervals [3]:
+            xmin = 1.06 
+            xmax = 1.59 
+            text = "sp" 
+        intervals [4]:
+            xmin = 1.59 
+            xmax = 1.71 
+            text = "ד" 
+        intervals [5]:
+            xmin = 1.71 
+            xmax = 1.76 
+            text = "ע" 
+        intervals [6]:
+            xmin = 1.76 
+            xmax = 1.84 
+            text = "ם" 
+        intervals [7]:
+            xmin = 1.84 
+            xmax = 1.89 
+            text = "א" 
+        intervals [8]:
+            xmin = 1.89 
+            xmax = 2.03 
+            text = "ײ" 
+        intervals [9]:
+            xmin = 2.03 
+            xmax = 2.08 
+            text = "ד" 
+        intervals [10]:
+            xmin = 2.08 
+            xmax = 2.13 
+            text = "ע" 
+        intervals [11]:
+            xmin = 2.13 
+            xmax = 2.24 
+            text = "ם" 
