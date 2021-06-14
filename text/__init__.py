@@ -38,7 +38,7 @@ def text_to_sequence(text, cleaner_names):
         sequence += _symbols_to_sequence(m.group(2))
         text = m.group(3)
 
-        #breakpoint()
+        breakpoint()
 
     return sequence
 
