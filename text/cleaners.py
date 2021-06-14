@@ -95,7 +95,7 @@ def normalise_unicode(text):
     text = re.sub(r"יי", r"ײ", text)
     text = re.sub(r"וו", r"װ", text)
     text = re.sub(r"וי", r"ױ", text)
-    return text.strip()
+    return text
 
 
 def english_cleaners(text):
