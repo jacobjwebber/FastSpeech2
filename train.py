@@ -81,7 +81,7 @@ def main(args, configs):
                 # Forward
                 output = model(*(batch[2:]))
 
-                breakpoint()
+                #breakpoint()
 
                 # Cal Loss
                 losses = Loss(batch, output)

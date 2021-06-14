@@ -34,7 +34,8 @@ def text_to_sequence(text, cleaner_names):
         if not m:
             sequence += _symbols_to_sequence(_clean_text(text, cleaner_names))
             break
-        sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names))
+        #sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names))
+        sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names).split())
         sequence += _symbols_to_sequence(m.group(2))
 
         #breakpoint()
