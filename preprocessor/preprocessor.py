@@ -64,8 +64,7 @@ class Preprocessor:
 
         # Compute pitch, energy, duration, and mel-spectrogram
         speakers = {}
-        print("DIRS:")
-        print(os.listdir(self.in_dir))
+        print(f"DIRS: {os.listdir(self.in_dir)}")
         for i, speaker in enumerate(tqdm(os.listdir(self.in_dir))):
             if speaker != "zilberberg":
                 continue 
