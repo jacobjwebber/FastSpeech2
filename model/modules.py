@@ -119,7 +119,7 @@ class VarianceAdaptor(nn.Module):
                 x, pitch_target, src_mask, p_control
             )
 
-            breakpoint()
+            #breakpoint()
 
             x = x + pitch_embedding
         if self.energy_feature_level == "phoneme_level":
