@@ -78,7 +78,7 @@ class Dataset(Dataset):
 
         errors = []
 
-        print(f"FILE PATH: {os.path.join(self.preprocessed_path, filename)}")
+        #print(f"FILE PATH: {os.path.join(self.preprocessed_path, filename)}")
         with open(
             os.path.join(self.preprocessed_path, filename), "r", encoding="utf-8"
         ) as f:
@@ -87,7 +87,7 @@ class Dataset(Dataset):
             text = []
             raw_text = []
             for line in f.readlines():
-                print(f"LINE: {line}")
+                #print(f"LINE: {line}")
                 if len(line.strip("\n").split("|")) != 4:
                     errors.append(line)
                     continue
