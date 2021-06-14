@@ -80,7 +80,6 @@ def transliteration_cleaners(text):
 
 
 def normalise_unicode(text):
-    text = text.strip()
     text = re.sub(r"אַ", r"אַ", text)
     text = re.sub(r"אָ", r"אָ", text)
     text = re.sub(r"בּ", r"בּ", text)
@@ -111,4 +110,5 @@ def english_cleaners(text):
 def yiddish_cleaners(text):
     '''Pipeline for Yiddish text.'''
     text = normalise_unicode(text)
+    text = collapse_whitespace(text)
     return text
