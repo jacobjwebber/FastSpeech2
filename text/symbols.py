@@ -7,6 +7,8 @@ The default is a set of ASCII characters that works well for English or text tha
 
 from text import cmudict, pinyin
 
+# [_!()',.:;? -אאַאָבבּבֿגדהווּײװױזחטייִײַכּכךלמםנןסעפּפֿפףצץקרששׂתּת0123456789]
+
 _pad = "_"
 _punctuation = "!()',.:;? "
 _special = "-"
