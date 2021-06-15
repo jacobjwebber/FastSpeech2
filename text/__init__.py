@@ -32,7 +32,7 @@ def text_to_sequence(text, cleaner_names):
         m = _curly_re.match(text)
 
         if not m:
-            breakpoint()
+            #breakpoint()
             if text.split() != _clean_text(text,cleaner_names).split():
                 print(f"UNCLEANED = {text.split()}")
                 print(f"CLEANED = {_clean_text(text,cleaner_names).split()}")
