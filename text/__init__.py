@@ -32,18 +32,14 @@ def text_to_sequence(text, cleaner_names):
         m = _curly_re.match(text)
 
         if not m:
-            #breakpoint()
-            if text.split() != _clean_text(text,cleaner_names).split():
-                print(f"UNCLEANED = {text.split()}")
-                print(f"CLEANED = {_clean_text(text,cleaner_names).split()}")
-                raise Exception("Cleaned and uncleaned symbols don't match")
+            try:
+                assert len(text.split()) == len(_clean_text(text,cleaner_names).split())
+            except AssertionError:
+                breakpoint()
             sequence += _symbols_to_sequence(_clean_text(text, cleaner_names).split())
             break
         sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names).split())
         sequence += _symbols_to_sequence(m.group(2).split())
-
-        #breakpoint()
-
         text = m.group(3)
 
 
