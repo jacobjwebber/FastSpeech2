@@ -113,7 +113,7 @@ class VarianceAdaptor(nn.Module):
         d_control=1.0,
     ):
 
-        breakpoint()
+        #breakpoint()
 
         log_duration_prediction = self.duration_predictor(x, src_mask)
         if self.pitch_feature_level == "phoneme_level":
