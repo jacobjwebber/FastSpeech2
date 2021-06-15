@@ -11,7 +11,7 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 1.48 
-        intervals: size = 3 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
             xmax = 0.61 
@@ -22,14 +22,18 @@ item []:
             text = "דער" 
         intervals [3]:
             xmin = 0.88 
-            xmax = 1.48 
+            xmax = 1.45 
             text = "רעכענונג" 
+        intervals [4]:
+            xmin = 1.45 
+            xmax = 1.48 
+            text = "" 
     item [2]:
         class = "IntervalTier" 
         name = "phones" 
         xmin = 0 
         xmax = 1.48 
-        intervals: size = 12 
+        intervals: size = 13 
         intervals [1]:
             xmin = 0 
             xmax = 0.61 
@@ -52,29 +56,33 @@ item []:
             text = "ר" 
         intervals [6]:
             xmin = 0.94 
-            xmax = 1 
+            xmax = 1.01 
             text = "ע" 
         intervals [7]:
-            xmin = 1 
+            xmin = 1.01 
             xmax = 1.1 
             text = "כ" 
         intervals [8]:
             xmin = 1.1 
-            xmax = 1.15 
+            xmax = 1.16 
             text = "ע" 
         intervals [9]:
-            xmin = 1.15 
-            xmax = 1.22 
+            xmin = 1.16 
+            xmax = 1.28 
             text = "נ" 
         intervals [10]:
-            xmin = 1.22 
+            xmin = 1.28 
             xmax = 1.31 
             text = "ו" 
         intervals [11]:
             xmin = 1.31 
-            xmax = 1.38 
+            xmax = 1.36 
             text = "נ" 
         intervals [12]:
-            xmin = 1.38 
-            xmax = 1.48 
+            xmin = 1.36 
+            xmax = 1.45 
             text = "ג" 
+        intervals [13]:
+            xmin = 1.45 
+            xmax = 1.48 
+            text = "sp" 

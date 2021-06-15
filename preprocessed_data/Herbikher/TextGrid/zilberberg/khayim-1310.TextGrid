@@ -11,16 +11,20 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 1.12 
-        intervals: size = 3 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
             xmax = 0.53 
             text = "חײם" 
-        intervals [2]:
+        intervals [3]:
             xmin = 0.53 
             xmax = 0.72 
             text = "לע" 
-        intervals [3]:
+        intervals [4]:
             xmin = 0.72 
             xmax = 1.12 
             text = "דערער" 
@@ -29,44 +33,48 @@ item []:
         name = "phones" 
         xmin = 0 
         xmax = 1.12 
-        intervals: size = 10 
+        intervals: size = 11 
         intervals [1]:
             xmin = 0 
+            xmax = 0.03 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.03 
             xmax = 0.19 
             text = "ח" 
-        intervals [2]:
-            xmin = 0.19 
-            xmax = 0.42 
-            text = "ײ" 
         intervals [3]:
-            xmin = 0.42 
+            xmin = 0.19 
+            xmax = 0.41 
+            text = "ײ" 
+        intervals [4]:
+            xmin = 0.41 
             xmax = 0.53 
             text = "ם" 
-        intervals [4]:
-            xmin = 0.53 
-            xmax = 0.62 
-            text = "ל" 
         intervals [5]:
-            xmin = 0.62 
+            xmin = 0.53 
+            xmax = 0.61 
+            text = "ל" 
+        intervals [6]:
+            xmin = 0.61 
             xmax = 0.72 
             text = "ע" 
-        intervals [6]:
-            xmin = 0.72 
-            xmax = 0.79 
-            text = "ד" 
         intervals [7]:
-            xmin = 0.79 
-            xmax = 0.84 
-            text = "ע" 
+            xmin = 0.72 
+            xmax = 0.8 
+            text = "ד" 
         intervals [8]:
-            xmin = 0.84 
+            xmin = 0.8 
+            xmax = 0.83 
+            text = "ע" 
+        intervals [9]:
+            xmin = 0.83 
             xmax = 0.91 
             text = "ר" 
-        intervals [9]:
-            xmin = 0.91 
-            xmax = 0.96 
-            text = "ע" 
         intervals [10]:
-            xmin = 0.96 
+            xmin = 0.91 
+            xmax = 0.95 
+            text = "ע" 
+        intervals [11]:
+            xmin = 0.95 
             xmax = 1.12 
             text = "ר" 

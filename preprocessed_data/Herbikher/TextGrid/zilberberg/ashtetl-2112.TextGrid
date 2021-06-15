@@ -11,21 +11,17 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 1.3601 
-        intervals: size = 4 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.04 
-            text = "" 
-        intervals [2]:
-            xmin = 0.04 
-            xmax = 0.64 
+            xmax = 0.65 
             text = "שבת" 
-        intervals [3]:
-            xmin = 0.64 
-            xmax = 1.04 
+        intervals [2]:
+            xmin = 0.65 
+            xmax = 1.09 
             text = "אױבס" 
-        intervals [4]:
-            xmin = 1.04 
+        intervals [3]:
+            xmin = 1.09 
             xmax = 1.3601 
             text = "" 
     item [2]:
@@ -33,40 +29,36 @@ item []:
         name = "phones" 
         xmin = 0 
         xmax = 1.3601 
-        intervals: size = 9 
+        intervals: size = 8 
         intervals [1]:
             xmin = 0 
-            xmax = 0.04 
-            text = "sil" 
-        intervals [2]:
-            xmin = 0.04 
-            xmax = 0.33 
+            xmax = 0.34 
             text = "ש" 
+        intervals [2]:
+            xmin = 0.34 
+            xmax = 0.47 
+            text = "ב" 
         intervals [3]:
-            xmin = 0.33 
-            xmax = 0.43 
-            text = "ב" 
-        intervals [4]:
-            xmin = 0.43 
-            xmax = 0.64 
+            xmin = 0.47 
+            xmax = 0.65 
             text = "ת" 
-        intervals [5]:
-            xmin = 0.64 
-            xmax = 0.73 
+        intervals [4]:
+            xmin = 0.65 
+            xmax = 0.71 
             text = "א" 
-        intervals [6]:
-            xmin = 0.73 
-            xmax = 0.79 
+        intervals [5]:
+            xmin = 0.71 
+            xmax = 0.78 
             text = "ױ" 
-        intervals [7]:
-            xmin = 0.79 
-            xmax = 0.89 
+        intervals [6]:
+            xmin = 0.78 
+            xmax = 0.9 
             text = "ב" 
-        intervals [8]:
-            xmin = 0.89 
-            xmax = 1.04 
+        intervals [7]:
+            xmin = 0.9 
+            xmax = 1.09 
             text = "ס" 
-        intervals [9]:
-            xmin = 1.04 
+        intervals [8]:
+            xmin = 1.09 
             xmax = 1.3601 
             text = "sp" 

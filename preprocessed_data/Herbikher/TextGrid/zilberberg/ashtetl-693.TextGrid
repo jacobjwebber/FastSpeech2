@@ -11,17 +11,21 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 1.28 
-        intervals: size = 3 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.53 
+            xmax = 0.12 
             text = "" 
         intervals [2]:
-            xmin = 0.53 
-            xmax = 0.71 
+            xmin = 0.12 
+            xmax = 0.26 
             text = "די" 
         intervals [3]:
-            xmin = 0.71 
+            xmin = 0.26 
+            xmax = 0.74 
+            text = "" 
+        intervals [4]:
+            xmin = 0.74 
             xmax = 1.28 
             text = "אַלטע" 
     item [2]:
@@ -29,32 +33,36 @@ item []:
         name = "phones" 
         xmin = 0 
         xmax = 1.28 
-        intervals: size = 7 
+        intervals: size = 8 
         intervals [1]:
             xmin = 0 
-            xmax = 0.53 
+            xmax = 0.12 
             text = "sil" 
         intervals [2]:
-            xmin = 0.53 
-            xmax = 0.62 
+            xmin = 0.12 
+            xmax = 0.18 
             text = "ד" 
         intervals [3]:
-            xmin = 0.62 
-            xmax = 0.71 
+            xmin = 0.18 
+            xmax = 0.26 
             text = "י" 
         intervals [4]:
-            xmin = 0.71 
-            xmax = 0.87 
-            text = "אַ" 
+            xmin = 0.26 
+            xmax = 0.74 
+            text = "sp" 
         intervals [5]:
-            xmin = 0.87 
-            xmax = 0.98 
-            text = "ל" 
+            xmin = 0.74 
+            xmax = 0.88 
+            text = "אַ" 
         intervals [6]:
-            xmin = 0.98 
-            xmax = 1.05 
-            text = "ט" 
+            xmin = 0.88 
+            xmax = 0.97 
+            text = "ל" 
         intervals [7]:
-            xmin = 1.05 
+            xmin = 0.97 
+            xmax = 1.04 
+            text = "ט" 
+        intervals [8]:
+            xmin = 1.04 
             xmax = 1.28 
             text = "ע" 

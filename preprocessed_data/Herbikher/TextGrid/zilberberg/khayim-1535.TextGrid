@@ -11,7 +11,7 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 2 
-        intervals: size = 8 
+        intervals: size = 7 
         intervals [1]:
             xmin = 0 
             xmax = 0.13 
@@ -22,25 +22,21 @@ item []:
             text = "בּיזט" 
         intervals [3]:
             xmin = 0.39 
-            xmax = 0.62 
+            xmax = 0.65 
             text = "נאָך" 
         intervals [4]:
-            xmin = 0.62 
-            xmax = 0.65 
-            text = "" 
-        intervals [5]:
             xmin = 0.65 
-            xmax = 0.92 
+            xmax = 0.93 
             text = "בּײ" 
-        intervals [6]:
-            xmin = 0.92 
-            xmax = 1.34 
+        intervals [5]:
+            xmin = 0.93 
+            xmax = 1.35 
             text = "דײנע" 
-        intervals [7]:
-            xmin = 1.34 
+        intervals [6]:
+            xmin = 1.35 
             xmax = 1.39 
             text = "" 
-        intervals [8]:
+        intervals [7]:
             xmin = 1.39 
             xmax = 2 
             text = "כּוחות" 
@@ -49,21 +45,21 @@ item []:
         name = "phones" 
         xmin = 0 
         xmax = 2 
-        intervals: size = 22 
+        intervals: size = 21 
         intervals [1]:
             xmin = 0 
-            xmax = 0.04 
+            xmax = 0.06 
             text = "ד" 
         intervals [2]:
-            xmin = 0.04 
+            xmin = 0.06 
             xmax = 0.13 
             text = "ו" 
         intervals [3]:
             xmin = 0.13 
-            xmax = 0.22 
+            xmax = 0.21 
             text = "בּ" 
         intervals [4]:
-            xmin = 0.22 
+            xmin = 0.21 
             xmax = 0.25 
             text = "י" 
         intervals [5]:
@@ -80,61 +76,57 @@ item []:
             text = "נ" 
         intervals [8]:
             xmin = 0.45 
-            xmax = 0.53 
+            xmax = 0.52 
             text = "אָ" 
         intervals [9]:
-            xmin = 0.53 
-            xmax = 0.62 
+            xmin = 0.52 
+            xmax = 0.65 
             text = "ך" 
         intervals [10]:
-            xmin = 0.62 
-            xmax = 0.65 
-            text = "sp" 
-        intervals [11]:
             xmin = 0.65 
-            xmax = 0.82 
+            xmax = 0.83 
             text = "בּ" 
+        intervals [11]:
+            xmin = 0.83 
+            xmax = 0.93 
+            text = "ײ" 
         intervals [12]:
-            xmin = 0.82 
-            xmax = 0.92 
-            text = "ײ" 
-        intervals [13]:
-            xmin = 0.92 
-            xmax = 1.02 
+            xmin = 0.93 
+            xmax = 1.01 
             text = "ד" 
-        intervals [14]:
-            xmin = 1.02 
-            xmax = 1.17 
+        intervals [13]:
+            xmin = 1.01 
+            xmax = 1.16 
             text = "ײ" 
-        intervals [15]:
-            xmin = 1.17 
-            xmax = 1.26 
+        intervals [14]:
+            xmin = 1.16 
+            xmax = 1.27 
             text = "נ" 
-        intervals [16]:
-            xmin = 1.26 
-            xmax = 1.34 
+        intervals [15]:
+            xmin = 1.27 
+            xmax = 1.35 
             text = "ע" 
-        intervals [17]:
-            xmin = 1.34 
+        intervals [16]:
+            xmin = 1.35 
             xmax = 1.39 
             text = "sp" 
-        intervals [18]:
+        intervals [17]:
             xmin = 1.39 
-            xmax = 1.48 
+            xmax = 1.47 
             text = "כּ" 
-        intervals [19]:
-            xmin = 1.48 
-            xmax = 1.59 
+        intervals [18]:
+            xmin = 1.47 
+            xmax = 1.56 
             text = "ו" 
-        intervals [20]:
-            xmin = 1.59 
+        intervals [19]:
+            xmin = 1.56 
             xmax = 1.73 
             text = "ח" 
-        intervals [21]:
+        intervals [20]:
             xmin = 1.73 
             xmax = 1.76 
             text = "ו" 
-        intervals [22]:
+        intervals [21]:
             xmin = 1.76 
             xmax = 2 
             text = "ת" 
