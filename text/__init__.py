@@ -32,13 +32,15 @@ def text_to_sequence(text, cleaner_names):
         m = _curly_re.match(text)
 
         if not m:
+            #if len(text) != 
             sequence += _symbols_to_sequence(_clean_text(text, cleaner_names))
+            breakpoint()
             break
         #sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names))
         sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names).split())
         sequence += _symbols_to_sequence(m.group(2))
 
-        breakpoint()
+        #breakpoint()
 
         text = m.group(3)
 
