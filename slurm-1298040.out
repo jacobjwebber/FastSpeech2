@@ -1,0 +1,28 @@
+Sun Jun 13 14:08:51 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 106...  Off  | 00000000:04:00.0 Off |                  N/A |
+| 24%   30C    P8     5W / 120W |      0MiB /  6078MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0
+Conda environment fs2 activated
+Traceback (most recent call last):
+  File "/home/s2122322/FastSpeech2/preprocess.py", line 5, in <module>
+    from preprocessor.preprocessor import Preprocessor
+  File "/home/s2122322/FastSpeech2/preprocessor/preprocessor.py", line 8, in <module>
+    import pyworld as pw
+ModuleNotFoundError: No module named 'pyworld'

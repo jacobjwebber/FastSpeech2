@@ -1,0 +1,41 @@
+Sun Jun 13 22:36:14 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 106...  Off  | 00000000:09:00.0 Off |                  N/A |
+| 24%   28C    P8     5W / 120W |      0MiB /  6078MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0
+Conda environment fs2 activated
+Traceback (most recent call last):
+  File "/home/s2122322/FastSpeech2/train.py", line 11, in <module>
+    from utils.model import get_model, get_vocoder, get_param_num
+  File "/home/s2122322/FastSpeech2/utils/model.py", line 8, in <module>
+    from model import FastSpeech2, ScheduledOptim
+  File "/home/s2122322/FastSpeech2/model/__init__.py", line 1, in <module>
+    from .fastspeech2 import FastSpeech2
+  File "/home/s2122322/FastSpeech2/model/fastspeech2.py", line 8, in <module>
+    from transformer import Encoder, Decoder, PostNet
+  File "/home/s2122322/FastSpeech2/transformer/__init__.py", line 1, in <module>
+    from .Models import Encoder, Decoder
+  File "/home/s2122322/FastSpeech2/transformer/Models.py", line 7, in <module>
+    from text.symbols import symbols
+  File "/home/s2122322/FastSpeech2/text/__init__.py", line 4, in <module>
+    from text.symbols import symbols
+  File "/home/s2122322/FastSpeech2/text/symbols.py", line 11
+    _punctuation = "„\"!'(),.:;? 
+                                   ^
+SyntaxError: EOL while scanning string literal

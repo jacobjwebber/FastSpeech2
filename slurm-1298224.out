@@ -1,0 +1,33 @@
+Sun Jun 13 19:19:46 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 106...  Off  | 00000000:04:00.0 Off |                  N/A |
+| 32%   30C    P8     6W / 120W |      0MiB /  6078MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+0
+Conda environment fs2 activated
+Prepare training ...
+Traceback (most recent call last):
+  File "/home/s2122322/FastSpeech2/train.py", line 198, in <module>
+    main(args, configs)
+  File "/home/s2122322/FastSpeech2/train.py", line 27, in main
+    dataset = Dataset(
+  File "/home/s2122322/FastSpeech2/dataset.py", line 21, in __init__
+    self.basename, self.speaker, self.text, self.raw_text = self.process_meta(
+  File "/home/s2122322/FastSpeech2/dataset.py", line 85, in process_meta
+    n, s, t, r = line.strip("\n").split("|")
+ValueError: too many values to unpack (expected 4)
