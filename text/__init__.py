@@ -29,24 +29,30 @@ def text_to_sequence(text, cleaner_names):
 
     # Check for curly braces and treat their contents as ARPAbet:
     while len(text):
+        print(f"RAW TEXT: {text}")
         m = _curly_re.match(text)
 
-        print(f"TEXT: {text}")
+        print(f"MATCHED TEXT: {text}")
         print(f"M: {m}")
 
         if not m:
             try:
-                assert len(text.split()) == len(_clean_text(text,cleaner_names).split())
+                #print(f"ORIGINAL: {text.split()}")
+                #print(f"CLEANED: {_clean_text(text, cleaner_names).split()}")
+                assert len(text.split()) == len(_clean_text(text, cleaner_names).split())
             except AssertionError:
                 breakpoint()
-            print(f"ORIGINAL: {text.split()}")
-            print(f"CLEANED: {_clean_text(text,cleaner_names).split()}")
             sequence += _symbols_to_sequence(_clean_text(text, cleaner_names).split())
             break
+        try:
+            #print(f"ORIGINAL: {m.group(2).split()}")
+            #print(f"CLEANED: {_clean_text(m.group(2), cleaner_names).split()}")
+            assert len(text.split()) == len(_clean_text(m.group(2), cleaner_names).split())
+        except AssertionError:
+            breakpoint()
         sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names).split())
         sequence += _symbols_to_sequence(m.group(2).split())
         text = m.group(3)
-
 
 
     return sequence
