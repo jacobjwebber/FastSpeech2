@@ -31,6 +31,9 @@ def text_to_sequence(text, cleaner_names):
     while len(text):
         m = _curly_re.match(text)
 
+        print(f"TEXT: {text}")
+        print(f"M: {m}")
+
         if not m:
             try:
                 assert len(text.split()) == len(_clean_text(text,cleaner_names).split())
