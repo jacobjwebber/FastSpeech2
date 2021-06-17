@@ -84,12 +84,31 @@ def preprocess_mandarin(text, preprocess_config):
     return np.array(sequence)
 
 
+def normalise_unicode(text):
+    text = re.sub(r"אַ", r"אַ", text)
+    text = re.sub(r"אָ", r"אָ", text)
+    text = re.sub(r"בּ", r"בּ", text)
+    text = re.sub(r"בֿ", r"בֿ", text)
+    text = re.sub(r"וּ", r"וּ", text)
+    text = re.sub(r"יִ", r"יִ", text)
+    text = re.sub(r"ײַ", r"ײַ", text)
+    text = re.sub(r"כּ", r"כּ", text)
+    text = re.sub(r"פּ", r"פּ", text)
+    text = re.sub(r"פֿ", r"פֿ", text)
+    text = re.sub(r"שׂ", r"שׂ", text)
+    text = re.sub(r"תּ", r"תּ", text)
+    text = re.sub(r"יי", r"ײ", text)
+    text = re.sub(r"וו", r"װ", text)
+    text = re.sub(r"וי", r"ױ", text)
+    return text
+
 def preprocess_yiddish(text, preprocess_config):
     lexicon = read_lexicon(preprocess_config["path"]["lexicon_path"])
 
     phones = []
     words = re.split(r"([,;.„\"\-\?\!\(\)\s+])", text)
     for w in words:
+        w = normalise_unicode(w)
         phones += [c for c in w]
     phones = "{" + "}{".join(phones) + "}"
     phones = re.sub(r"\{[^\w\s]?\}", "{sp}", phones)
