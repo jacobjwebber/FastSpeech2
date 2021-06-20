@@ -122,9 +122,16 @@ def english_cleaners(text):
     text = collapse_whitespace(text)
     return text
 
-def yiddish_cleaners(text):
-    '''Pipeline for Yiddish text.'''
+def yiddish_cleaners_unpointed(text):
+    '''Pipeline for unpointed Yiddish text.'''
     text = normalise_unicode(text)
     text = depoint(text)
+    text = collapse_whitespace(text)
+    return text
+
+
+def yiddish_cleaners(text):
+    '''Pipeline for pointed Yiddish text.'''
+    text = normalise_unicode(text)
     text = collapse_whitespace(text)
     return text
