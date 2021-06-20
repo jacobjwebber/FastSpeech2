@@ -92,9 +92,24 @@ def normalise_unicode(text):
     text = re.sub(r"פֿ", r"פֿ", text)
     text = re.sub(r"שׂ", r"שׂ", text)
     text = re.sub(r"תּ", r"תּ", text)
-    text = re.sub(r"יי", r"ײ", text)
-    text = re.sub(r"וו", r"װ", text)
-    text = re.sub(r"וי", r"ױ", text)
+    text = re.sub(r"-", r"־", text)
+    return text
+
+
+def depoint(text):
+    text = re.sub(r"[אַאָ]", r"א", text)
+    text = re.sub(r"[בּבֿ]", r"ב", text)
+    text = re.sub(r"[פּפֿ]", r"פ", text)
+    text = re.sub(r"כּ", r"כ", text)
+    text = re.sub(r"תּ", r"ת", text)
+    text = re.sub(r"שׂ", r"ש", text)
+    text = re.sub(r"", r"ש", text)
+    text = re.sub(r"וּ", r"ו", text)
+    text = re.sub(r"יִ", r"י", text)
+    text = re.sub(r"ײַ", r"יי", text)
+    text = re.sub(r"ײ", r"יי", text)
+    text = re.sub(r"װ", r"וו", text)
+    text = re.sub(r"ױ", r"וי", text)
     return text
 
 
@@ -110,5 +125,6 @@ def english_cleaners(text):
 def yiddish_cleaners(text):
     '''Pipeline for Yiddish text.'''
     text = normalise_unicode(text)
+    text = depoint(text)
     text = collapse_whitespace(text)
     return text

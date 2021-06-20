@@ -97,9 +97,24 @@ def normalise_unicode(text):
     text = re.sub(r"פֿ", r"פֿ", text)
     text = re.sub(r"שׂ", r"שׂ", text)
     text = re.sub(r"תּ", r"תּ", text)
-    text = re.sub(r"יי", r"ײ", text)
-    text = re.sub(r"וו", r"װ", text)
-    text = re.sub(r"וי", r"ױ", text)
+    text = re.sub(r"-", r"־", text)
+    return text
+
+
+def depoint(text):
+    text = re.sub(r"[אַאָ]", r"א", text)
+    text = re.sub(r"[בּבֿ]", r"ב", text)
+    text = re.sub(r"[פּפֿ]", r"פ", text)
+    text = re.sub(r"כּ", r"כ", text)
+    text = re.sub(r"תּ", r"ת", text)
+    text = re.sub(r"שׂ", r"ש", text)
+    text = re.sub(r"", r"ש", text)
+    text = re.sub(r"וּ", r"ו", text)
+    text = re.sub(r"יִ", r"י", text)
+    text = re.sub(r"ײַ", r"יי", text)
+    text = re.sub(r"ײ", r"יי", text)
+    text = re.sub(r"װ", r"וו", text)
+    text = re.sub(r"ױ", r"וי", text)
     return text
 
 def preprocess_yiddish(text, preprocess_config):
@@ -109,7 +124,17 @@ def preprocess_yiddish(text, preprocess_config):
     words = re.split(r"([,;.„\"\-\?\!\(\)\s+])", text)
     for w in words:
         w = normalise_unicode(w)
-        phones += [c for c in w]
+        w = depoint(w)
+        if w in lexicon:
+            phones += lexicon[w]
+        else:
+            phones += [c for c in w]
+
+    phones = "{" + "}{".join(phones) + "}"
+    phones = re.sub(r"\{[^\w\s]?\}", "{sp}", phones)
+    phones = phones.replace("}{", " ")
+
+
     phones = "{" + "}{".join(phones) + "}"
     phones = re.sub(r"\{[^\w\s]?\}", "{sp}", phones)
     phones = phones.replace("}{", " ")

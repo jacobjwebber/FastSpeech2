@@ -1,10 +1,10 @@
-dataset: "Herbikher-unpointed" # change this
+dataset: "Herbikher-phone" # change this
 
 path:
   corpus_path: "../Herbikher-unpointed" # change this
-  lexicon_path: "../yiddish-tts/lexicon-unpointed.txt" # change this
+  lexicon_path: "../yiddish-tts/lexicon-phone.txt" # change this
   raw_path: "../Herbikher-unpointed" # change this
-  preprocessed_path: "./preprocessed_data/Herbikher-unpointed" # change this
+  preprocessed_path: "./preprocessed_data/Herbikher-phone" # change this
 
 preprocessing:
   val_size: 512

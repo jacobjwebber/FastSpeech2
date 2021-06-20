@@ -7,11 +7,11 @@ The default is a set of ASCII characters that works well for English or text tha
 
 #from text import cmudict, pinyin
 
-# [^_!()',.:;? \-אאַאָבבּבֿגדהווּײװױזחטייִײַכּכךלמםנןסעפּפֿפףצץקרששׂתּת0123456789]
+# [_!()',.:;? \-־׳״אאַאָבבּבֿגדהווּײװױזחטייִײַכּכךלמםנןסעפּפֿפףצץקרששׂתּת0123456789]
 
 _pad = "_"
 _punctuation = "!()',.:;? "
-_special = "-"
+_special = "-־׳״"
 #_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 _letters = ["א", "אַ", "אָ", "ב", "בּ", "בֿ", "ג", "ד", "ה", "ו", "וּ", "ײ", "װ", "ױ", "ז", "ח", "ט", "י", "יִ", "ײַ", "כּ", "כ", "ך", "ל", "מ", "ם", "נ", "ן", "ס", "ע", "פּ", "פֿ", "פ", "ף", "צ", "ץ", "ק", "ר", "ש", "שׂ", "תּ", "ת", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 _silences = ["sp", "spn", "sil"]
