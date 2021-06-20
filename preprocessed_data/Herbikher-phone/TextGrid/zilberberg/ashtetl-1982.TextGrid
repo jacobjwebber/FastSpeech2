@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.8 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.2 
+            text = "צו" 
+        intervals [3]:
+            xmin = 0.2 
+            xmax = 0.96 
+            text = "מארגענס" 
+        intervals [4]:
+            xmin = 0.96 
+            xmax = 1.8 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.8 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.11 
+            text = "צ" 
+        intervals [3]:
+            xmin = 0.11 
+            xmax = 0.14 
+            text = "א" 
+        intervals [4]:
+            xmin = 0.14 
+            xmax = 0.17 
+            text = "ו" 
+        intervals [5]:
+            xmin = 0.17 
+            xmax = 0.2 
+            text = "ו" 
+        intervals [6]:
+            xmin = 0.2 
+            xmax = 0.27 
+            text = "מ" 
+        intervals [7]:
+            xmin = 0.27 
+            xmax = 0.4 
+            text = "א" 
+        intervals [8]:
+            xmin = 0.4 
+            xmax = 0.52 
+            text = "ר" 
+        intervals [9]:
+            xmin = 0.52 
+            xmax = 0.55 
+            text = "ג" 
+        intervals [10]:
+            xmin = 0.55 
+            xmax = 0.58 
+            text = "ע" 
+        intervals [11]:
+            xmin = 0.58 
+            xmax = 0.69 
+            text = "נ" 
+        intervals [12]:
+            xmin = 0.69 
+            xmax = 0.96 
+            text = "ס" 
+        intervals [13]:
+            xmin = 0.96 
+            xmax = 1.8 
+            text = "sp" 
