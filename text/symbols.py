@@ -11,7 +11,7 @@ The default is a set of ASCII characters that works well for English or text tha
 # [_!()',.:;? \-־׳״אבגדהוזחטייִכךלמםנןסעפףצץקרשת0123456789]
 
 _pad = "_"
-_punctuation = "!()',.:;? "
+_punctuation = "!{}()',.:;? "
 _special = "-"
 #_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 _letters = "־׳״אאַאָבבּבֿגדהווּײװױזחטייִײַכּכךלמםנןסעפּפֿפףצץקרששׂתּת0123456789"
