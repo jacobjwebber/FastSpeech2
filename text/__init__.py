@@ -41,7 +41,7 @@ def text_to_sequence(text, cleaner_names):
         print(f"match: {m.group(2)}")
         #print(f"3: {m.group(3)}")
         #sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names).split())
-        sequence += _symbols_to_sequence(_clean_text(m.group(2), cleaner_names.split())
+        sequence += _symbols_to_sequence(_clean_text(m.group(2), cleaner_names).split())
 
         text = m.group(3)
 
