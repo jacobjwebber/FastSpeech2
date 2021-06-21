@@ -11,21 +11,17 @@ item []:
         name = "words" 
         xmin = 0 
         xmax = 1.4 
-        intervals: size = 4 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
             xmax = 0.13 
             text = "שלוט" 
         intervals [2]:
             xmin = 0.13 
-            xmax = 0.79 
-            text = "" 
-        intervals [3]:
-            xmin = 0.79 
-            xmax = 0.86 
+            xmax = 0.21 
             text = "אש" 
-        intervals [4]:
-            xmin = 0.86 
+        intervals [3]:
+            xmin = 0.21 
             xmax = 1.4 
             text = "" 
     item [2]:
@@ -33,7 +29,7 @@ item []:
         name = "phones" 
         xmin = 0 
         xmax = 1.4 
-        intervals: size = 8 
+        intervals: size = 7 
         intervals [1]:
             xmin = 0 
             xmax = 0.03 
@@ -52,17 +48,13 @@ item []:
             text = "ט" 
         intervals [5]:
             xmin = 0.13 
-            xmax = 0.79 
-            text = "sp" 
-        intervals [6]:
-            xmin = 0.79 
-            xmax = 0.82 
+            xmax = 0.16 
             text = "א" 
-        intervals [7]:
-            xmin = 0.82 
-            xmax = 0.86 
+        intervals [6]:
+            xmin = 0.16 
+            xmax = 0.21 
             text = "ש" 
-        intervals [8]:
-            xmin = 0.86 
+        intervals [7]:
+            xmin = 0.21 
             xmax = 1.4 
             text = "sp" 

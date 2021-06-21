@@ -2,7 +2,7 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.3601 
+xmax = 1.36 
 tiers? <exists> 
 size = 2 
 item []: 
@@ -10,55 +10,63 @@ item []:
         class = "IntervalTier" 
         name = "words" 
         xmin = 0 
-        xmax = 1.3601 
-        intervals: size = 2 
+        xmax = 1.36 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
+            xmax = 0.04 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04 
             xmax = 1.04 
             text = "שבת־אויבס" 
-        intervals [2]:
+        intervals [3]:
             xmin = 1.04 
-            xmax = 1.3601 
+            xmax = 1.36 
             text = "" 
     item [2]:
         class = "IntervalTier" 
         name = "phones" 
         xmin = 0 
-        xmax = 1.3601 
-        intervals: size = 9 
+        xmax = 1.36 
+        intervals: size = 10 
         intervals [1]:
             xmin = 0 
-            xmax = 0.35 
-            text = "ש" 
+            xmax = 0.04 
+            text = "sil" 
         intervals [2]:
-            xmin = 0.35 
-            xmax = 0.52 
-            text = "ב" 
+            xmin = 0.04 
+            xmax = 0.43 
+            text = "ש" 
         intervals [3]:
-            xmin = 0.52 
+            xmin = 0.43 
+            xmax = 0.51 
+            text = "ב" 
+        intervals [4]:
+            xmin = 0.51 
             xmax = 0.66 
             text = "ת" 
-        intervals [4]:
-            xmin = 0.66 
-            xmax = 0.72 
-            text = "א" 
         intervals [5]:
-            xmin = 0.72 
+            xmin = 0.66 
+            xmax = 0.71 
+            text = "א" 
+        intervals [6]:
+            xmin = 0.71 
             xmax = 0.76 
             text = "ו" 
-        intervals [6]:
+        intervals [7]:
             xmin = 0.76 
             xmax = 0.8 
             text = "י" 
-        intervals [7]:
-            xmin = 0.8 
-            xmax = 0.9 
-            text = "ב" 
         intervals [8]:
-            xmin = 0.9 
+            xmin = 0.8 
+            xmax = 0.92 
+            text = "ב" 
+        intervals [9]:
+            xmin = 0.92 
             xmax = 1.04 
             text = "ס" 
-        intervals [9]:
+        intervals [10]:
             xmin = 1.04 
-            xmax = 1.3601 
+            xmax = 1.36 
             text = "sp" 
