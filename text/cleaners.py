@@ -103,7 +103,6 @@ def depoint(text):
     text = re.sub(r"כּ", r"כ", text)
     text = re.sub(r"תּ", r"ת", text)
     text = re.sub(r"שׂ", r"ש", text)
-    text = re.sub(r"", r"ש", text)
     text = re.sub(r"וּ", r"ו", text)
     text = re.sub(r"יִ", r"י", text)
     text = re.sub(r"ײַ", r"יי", text)
