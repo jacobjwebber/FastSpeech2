@@ -128,7 +128,6 @@ def yiddish_cleaners_unpointed(text):
     text = collapse_whitespace(text)
     return text
 
-
 def yiddish_cleaners(text):
     '''Pipeline for pointed Yiddish text.'''
     text = normalise_unicode(text)
