@@ -1,0 +1,132 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.04 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.04 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14 
+            text = "" 
+        intervals [2]:
+            xmin = 0.14 
+            xmax = 0.36 
+            text = "איך" 
+        intervals [3]:
+            xmin = 0.36 
+            xmax = 0.64 
+            text = "בעט" 
+        intervals [4]:
+            xmin = 0.64 
+            xmax = 1.06 
+            text = "איבער" 
+        intervals [5]:
+            xmin = 1.06 
+            xmax = 1.49 
+            text = "אײַער" 
+        intervals [6]:
+            xmin = 1.49 
+            xmax = 1.76 
+            text = "" 
+        intervals [7]:
+            xmin = 1.76 
+            xmax = 2.04 
+            text = "כבוד" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.04 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.14 
+            xmax = 0.21 
+            text = "א" 
+        intervals [3]:
+            xmin = 0.21 
+            xmax = 0.27 
+            text = "י" 
+        intervals [4]:
+            xmin = 0.27 
+            xmax = 0.36 
+            text = "ך" 
+        intervals [5]:
+            xmin = 0.36 
+            xmax = 0.46 
+            text = "ב" 
+        intervals [6]:
+            xmin = 0.46 
+            xmax = 0.56 
+            text = "ע" 
+        intervals [7]:
+            xmin = 0.56 
+            xmax = 0.64 
+            text = "ט" 
+        intervals [8]:
+            xmin = 0.64 
+            xmax = 0.78 
+            text = "א" 
+        intervals [9]:
+            xmin = 0.78 
+            xmax = 0.88 
+            text = "י" 
+        intervals [10]:
+            xmin = 0.88 
+            xmax = 0.97 
+            text = "ב" 
+        intervals [11]:
+            xmin = 0.97 
+            xmax = 1.03 
+            text = "ע" 
+        intervals [12]:
+            xmin = 1.03 
+            xmax = 1.06 
+            text = "ר" 
+        intervals [13]:
+            xmin = 1.06 
+            xmax = 1.14 
+            text = "א" 
+        intervals [14]:
+            xmin = 1.14 
+            xmax = 1.26 
+            text = "ײַ" 
+        intervals [15]:
+            xmin = 1.26 
+            xmax = 1.33 
+            text = "ע" 
+        intervals [16]:
+            xmin = 1.33 
+            xmax = 1.49 
+            text = "ר" 
+        intervals [17]:
+            xmin = 1.49 
+            xmax = 1.76 
+            text = "sp" 
+        intervals [18]:
+            xmin = 1.76 
+            xmax = 1.79 
+            text = "כ" 
+        intervals [19]:
+            xmin = 1.79 
+            xmax = 1.82 
+            text = "ב" 
+        intervals [20]:
+            xmin = 1.82 
+            xmax = 1.91 
+            text = "ו" 
+        intervals [21]:
+            xmin = 1.91 
+            xmax = 2.04 
+            text = "ד" 

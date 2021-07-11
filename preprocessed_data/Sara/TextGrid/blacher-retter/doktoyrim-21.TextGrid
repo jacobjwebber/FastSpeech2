@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.52 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.52 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3 
+            xmax = 0.9 
+            text = "צװײ" 
+        intervals [3]:
+            xmin = 0.9 
+            xmax = 1.67 
+            text = "דאָקטױרים" 
+        intervals [4]:
+            xmin = 1.67 
+            xmax = 2.52 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.52 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.3 
+            xmax = 0.49 
+            text = "צ" 
+        intervals [3]:
+            xmin = 0.49 
+            xmax = 0.69 
+            text = "װ" 
+        intervals [4]:
+            xmin = 0.69 
+            xmax = 0.9 
+            text = "ײ" 
+        intervals [5]:
+            xmin = 0.9 
+            xmax = 1.02 
+            text = "ד" 
+        intervals [6]:
+            xmin = 1.02 
+            xmax = 1.1 
+            text = "אָ" 
+        intervals [7]:
+            xmin = 1.1 
+            xmax = 1.17 
+            text = "ק" 
+        intervals [8]:
+            xmin = 1.17 
+            xmax = 1.31 
+            text = "ט" 
+        intervals [9]:
+            xmin = 1.31 
+            xmax = 1.45 
+            text = "ױ" 
+        intervals [10]:
+            xmin = 1.45 
+            xmax = 1.54 
+            text = "ר" 
+        intervals [11]:
+            xmin = 1.54 
+            xmax = 1.61 
+            text = "י" 
+        intervals [12]:
+            xmin = 1.61 
+            xmax = 1.67 
+            text = "ם" 
+        intervals [13]:
+            xmin = 1.67 
+            xmax = 2.52 
+            text = "sp" 

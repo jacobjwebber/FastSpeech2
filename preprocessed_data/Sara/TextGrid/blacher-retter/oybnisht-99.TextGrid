@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.28 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.28 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09 
+            xmax = 0.36 
+            text = "און" 
+        intervals [3]:
+            xmin = 0.36 
+            xmax = 1.28 
+            text = "סליחות־צײַט" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.28 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.09 
+            xmax = 0.28 
+            text = "א" 
+        intervals [3]:
+            xmin = 0.28 
+            xmax = 0.32 
+            text = "ו" 
+        intervals [4]:
+            xmin = 0.32 
+            xmax = 0.36 
+            text = "ן" 
+        intervals [5]:
+            xmin = 0.36 
+            xmax = 0.51 
+            text = "ס" 
+        intervals [6]:
+            xmin = 0.51 
+            xmax = 0.62 
+            text = "ל" 
+        intervals [7]:
+            xmin = 0.62 
+            xmax = 0.73 
+            text = "י" 
+        intervals [8]:
+            xmin = 0.73 
+            xmax = 0.84 
+            text = "ח" 
+        intervals [9]:
+            xmin = 0.84 
+            xmax = 0.88 
+            text = "ו" 
+        intervals [10]:
+            xmin = 0.88 
+            xmax = 1.02 
+            text = "ת" 
+        intervals [11]:
+            xmin = 1.02 
+            xmax = 1.05 
+            text = "־" 
+        intervals [12]:
+            xmin = 1.05 
+            xmax = 1.11 
+            text = "צ" 
+        intervals [13]:
+            xmin = 1.11 
+            xmax = 1.25 
+            text = "ײַ" 
+        intervals [14]:
+            xmin = 1.25 
+            xmax = 1.28 
+            text = "ט" 

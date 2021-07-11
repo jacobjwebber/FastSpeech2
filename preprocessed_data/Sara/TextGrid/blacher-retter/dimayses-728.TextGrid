@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.28 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.28 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.69 
+            text = "הערשל" 
+        intervals [2]:
+            xmin = 0.69 
+            xmax = 1.28 
+            text = "זומערװינט" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.28 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27 
+            text = "ה" 
+        intervals [2]:
+            xmin = 0.27 
+            xmax = 0.36 
+            text = "ע" 
+        intervals [3]:
+            xmin = 0.36 
+            xmax = 0.45 
+            text = "ר" 
+        intervals [4]:
+            xmin = 0.45 
+            xmax = 0.6 
+            text = "ש" 
+        intervals [5]:
+            xmin = 0.6 
+            xmax = 0.69 
+            text = "ל" 
+        intervals [6]:
+            xmin = 0.69 
+            xmax = 0.85 
+            text = "ז" 
+        intervals [7]:
+            xmin = 0.85 
+            xmax = 0.93 
+            text = "ו" 
+        intervals [8]:
+            xmin = 0.93 
+            xmax = 1.01 
+            text = "מ" 
+        intervals [9]:
+            xmin = 1.01 
+            xmax = 1.06 
+            text = "ע" 
+        intervals [10]:
+            xmin = 1.06 
+            xmax = 1.14 
+            text = "ר" 
+        intervals [11]:
+            xmin = 1.14 
+            xmax = 1.19 
+            text = "װ" 
+        intervals [12]:
+            xmin = 1.19 
+            xmax = 1.22 
+            text = "י" 
+        intervals [13]:
+            xmin = 1.22 
+            xmax = 1.25 
+            text = "נ" 
+        intervals [14]:
+            xmin = 1.25 
+            xmax = 1.28 
+            text = "ט" 

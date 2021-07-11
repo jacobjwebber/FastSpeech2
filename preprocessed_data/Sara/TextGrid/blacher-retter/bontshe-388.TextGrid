@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.64 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2 
+            xmax = 0.9 
+            text = "קלײַב" 
+        intervals [3]:
+            xmin = 0.9 
+            xmax = 0.93 
+            text = "" 
+        intervals [4]:
+            xmin = 0.93 
+            xmax = 1.11 
+            text = "און" 
+        intervals [5]:
+            xmin = 1.11 
+            xmax = 1.64 
+            text = "נעם" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.2 
+            xmax = 0.3 
+            text = "ק" 
+        intervals [3]:
+            xmin = 0.3 
+            xmax = 0.47 
+            text = "ל" 
+        intervals [4]:
+            xmin = 0.47 
+            xmax = 0.74 
+            text = "ײַ" 
+        intervals [5]:
+            xmin = 0.74 
+            xmax = 0.9 
+            text = "ב" 
+        intervals [6]:
+            xmin = 0.9 
+            xmax = 0.93 
+            text = "sp" 
+        intervals [7]:
+            xmin = 0.93 
+            xmax = 1.01 
+            text = "א" 
+        intervals [8]:
+            xmin = 1.01 
+            xmax = 1.07 
+            text = "ו" 
+        intervals [9]:
+            xmin = 1.07 
+            xmax = 1.11 
+            text = "ן" 
+        intervals [10]:
+            xmin = 1.11 
+            xmax = 1.32 
+            text = "נ" 
+        intervals [11]:
+            xmin = 1.32 
+            xmax = 1.44 
+            text = "ע" 
+        intervals [12]:
+            xmin = 1.44 
+            xmax = 1.64 
+            text = "ם" 

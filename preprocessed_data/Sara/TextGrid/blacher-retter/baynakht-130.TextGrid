@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.56 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.56 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.76 
+            text = "ס'װעט" 
+        intervals [3]:
+            xmin = 0.76 
+            xmax = 1.01 
+            text = "ניט" 
+        intervals [4]:
+            xmin = 1.01 
+            xmax = 1.56 
+            text = "העלפֿן" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.56 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.42 
+            text = "ס" 
+        intervals [3]:
+            xmin = 0.42 
+            xmax = 0.46 
+            text = "'" 
+        intervals [4]:
+            xmin = 0.46 
+            xmax = 0.54 
+            text = "װ" 
+        intervals [5]:
+            xmin = 0.54 
+            xmax = 0.63 
+            text = "ע" 
+        intervals [6]:
+            xmin = 0.63 
+            xmax = 0.76 
+            text = "ט" 
+        intervals [7]:
+            xmin = 0.76 
+            xmax = 0.81 
+            text = "נ" 
+        intervals [8]:
+            xmin = 0.81 
+            xmax = 0.89 
+            text = "י" 
+        intervals [9]:
+            xmin = 0.89 
+            xmax = 1.01 
+            text = "ט" 
+        intervals [10]:
+            xmin = 1.01 
+            xmax = 1.09 
+            text = "ה" 
+        intervals [11]:
+            xmin = 1.09 
+            xmax = 1.19 
+            text = "ע" 
+        intervals [12]:
+            xmin = 1.19 
+            xmax = 1.32 
+            text = "ל" 
+        intervals [13]:
+            xmin = 1.32 
+            xmax = 1.46 
+            text = "פֿ" 
+        intervals [14]:
+            xmin = 1.46 
+            xmax = 1.56 
+            text = "ן" 

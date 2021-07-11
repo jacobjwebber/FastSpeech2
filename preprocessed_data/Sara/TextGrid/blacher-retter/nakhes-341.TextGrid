@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.92 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.92 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.45 
+            text = "" 
+        intervals [2]:
+            xmin = 0.45 
+            xmax = 0.79 
+            text = "נישט" 
+        intervals [3]:
+            xmin = 0.79 
+            xmax = 1 
+            text = "קײן" 
+        intervals [4]:
+            xmin = 1 
+            xmax = 1.92 
+            text = "שוסטער" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.92 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.45 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.45 
+            xmax = 0.57 
+            text = "נ" 
+        intervals [3]:
+            xmin = 0.57 
+            xmax = 0.65 
+            text = "י" 
+        intervals [4]:
+            xmin = 0.65 
+            xmax = 0.73 
+            text = "ש" 
+        intervals [5]:
+            xmin = 0.73 
+            xmax = 0.79 
+            text = "ט" 
+        intervals [6]:
+            xmin = 0.79 
+            xmax = 0.86 
+            text = "ק" 
+        intervals [7]:
+            xmin = 0.86 
+            xmax = 0.94 
+            text = "ײ" 
+        intervals [8]:
+            xmin = 0.94 
+            xmax = 1 
+            text = "ן" 
+        intervals [9]:
+            xmin = 1 
+            xmax = 1.17 
+            text = "ש" 
+        intervals [10]:
+            xmin = 1.17 
+            xmax = 1.33 
+            text = "ו" 
+        intervals [11]:
+            xmin = 1.33 
+            xmax = 1.45 
+            text = "ס" 
+        intervals [12]:
+            xmin = 1.45 
+            xmax = 1.61 
+            text = "ט" 
+        intervals [13]:
+            xmin = 1.61 
+            xmax = 1.85 
+            text = "ע" 
+        intervals [14]:
+            xmin = 1.85 
+            xmax = 1.92 
+            text = "ר" 
