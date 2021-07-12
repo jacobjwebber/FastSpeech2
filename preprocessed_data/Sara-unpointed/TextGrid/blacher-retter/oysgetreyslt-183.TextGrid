@@ -1,0 +1,68 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.04 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.04 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.62 
+            text = "דער" 
+        intervals [3]:
+            xmin = 0.62 
+            xmax = 1.04 
+            text = "וועלט" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.04 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.48 
+            text = "ד" 
+        intervals [3]:
+            xmin = 0.48 
+            xmax = 0.54 
+            text = "ע" 
+        intervals [4]:
+            xmin = 0.54 
+            xmax = 0.62 
+            text = "ר" 
+        intervals [5]:
+            xmin = 0.62 
+            xmax = 0.66 
+            text = "ו" 
+        intervals [6]:
+            xmin = 0.66 
+            xmax = 0.7 
+            text = "ו" 
+        intervals [7]:
+            xmin = 0.7 
+            xmax = 0.77 
+            text = "ע" 
+        intervals [8]:
+            xmin = 0.77 
+            xmax = 0.88 
+            text = "ל" 
+        intervals [9]:
+            xmin = 0.88 
+            xmax = 1.04 
+            text = "ט" 

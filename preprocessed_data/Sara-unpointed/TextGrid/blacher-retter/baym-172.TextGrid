@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.68 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.68 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.29 
+            text = "" 
+        intervals [2]:
+            xmin = 0.29 
+            xmax = 0.84 
+            text = "וואס" 
+        intervals [3]:
+            xmin = 0.84 
+            xmax = 1.52 
+            text = "פליסט" 
+        intervals [4]:
+            xmin = 1.52 
+            xmax = 1.68 
+            text = "דו" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.68 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.29 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.29 
+            xmax = 0.44 
+            text = "ו" 
+        intervals [3]:
+            xmin = 0.44 
+            xmax = 0.55 
+            text = "ו" 
+        intervals [4]:
+            xmin = 0.55 
+            xmax = 0.67 
+            text = "א" 
+        intervals [5]:
+            xmin = 0.67 
+            xmax = 0.84 
+            text = "ס" 
+        intervals [6]:
+            xmin = 0.84 
+            xmax = 0.97 
+            text = "פ" 
+        intervals [7]:
+            xmin = 0.97 
+            xmax = 1.09 
+            text = "ל" 
+        intervals [8]:
+            xmin = 1.09 
+            xmax = 1.24 
+            text = "י" 
+        intervals [9]:
+            xmin = 1.24 
+            xmax = 1.43 
+            text = "ס" 
+        intervals [10]:
+            xmin = 1.43 
+            xmax = 1.52 
+            text = "ט" 
+        intervals [11]:
+            xmin = 1.52 
+            xmax = 1.56 
+            text = "ד" 
+        intervals [12]:
+            xmin = 1.56 
+            xmax = 1.68 
+            text = "ו" 
