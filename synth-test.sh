@@ -11,7 +11,7 @@ do
   echo "Synthesising with zilberberg unpointed..."
   echo "$depointed"
   python3 synthesize.py --text "$depointed" --restore_step 90000 --mode single -p config/Herbikher-unpointed/preprocess.yaml -m config/Herbikher-unpointed/model.yaml -t config/Herbikher-unpointed/train.yaml
-done < "$zil"
+done <<< "$zil"
 
 sara=`cat ../yiddish-tts/test/sara-master.tsv | awk -F'\t' '{print $2}'`
 while IFS= read -r line
@@ -24,4 +24,4 @@ do
   echo "Synthesising with sara unpointed..."
   echo "$depointed"
   python3 synthesize.py --text "$depointed" --restore_step 90000 --mode single -p config/Sara-unpointed/preprocess.yaml -m config/Sara-unpointed/model.yaml -t config/Sara-unpointed/train.yaml
-done < "$sara"
+done <<< "$sara"
