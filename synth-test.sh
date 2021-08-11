@@ -8,7 +8,7 @@ do
   echo "Synthesising with zilberberg baseline..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
 done <<< "$zil_ba"
 
@@ -19,7 +19,7 @@ do
   echo "Synthesising with zilberberg baseline..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
 done <<< "$zil_bb"
 
@@ -32,7 +32,7 @@ do
   echo "Synthesising with zilberberg unpointed..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher-unpointed/preprocess.yaml -m config/Herbikher-unpointed/model.yaml -t config/Herbikher-unpointed/train.yaml
 done <<< "$zil_ua"
 
@@ -43,6 +43,6 @@ do
   echo "Synthesising with zilberberg unpointed..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher-unpointed/preprocess.yaml -m config/Herbikher-unpointed/model.yaml -t config/Herbikher-unpointed/train.yaml
 done <<< "$zil_ub"

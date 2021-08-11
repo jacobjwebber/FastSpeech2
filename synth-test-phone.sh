@@ -8,7 +8,7 @@ do
   echo "Synthesising with zilberberg phone..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
 done <<< "$zil_ra"
 
@@ -19,6 +19,6 @@ do
   echo "Synthesising with zilberberg phone..."
   echo "$file"
   utt=$(cat "$path/$file")
-
+  echo "$utt"
   python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
 done <<< "$zil_rb"
