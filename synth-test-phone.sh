@@ -1,17 +1,24 @@
 #!/bin/sh
 
-zil_phone=`cat ../yiddish-tts/test/zilberberg-master-phone.tsv | awk -F'\t' '{print $2}'`
-while IFS= read -r line
+# phone
+path="../yiddish-tts/test/gold-labs/zilberberg/a/respelt"
+zil_ra=`ls -1 "$path"`
+while IFS= read -r file
 do
   echo "Synthesising with zilberberg phone..."
-  echo "$line"
-  python3 synthesize.py --text "$line" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
-done <<< "$zil_phone"
+  echo "$file"
+  utt=$(cat "$path/$file")
 
-sara_phone=`cat ../yiddish-tts/test/sara-master-phone.tsv | awk -F'\t' '{print $2}'`
-while IFS= read -r line
+  python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
+done <<< "$zil_ra"
+
+path="../yiddish-tts/test/gold-labs/zilberberg/b/respelt"
+zil_rb=`ls -1 "$path"`
+while IFS= read -r file
 do
-  echo "Synthesising with sara phone..."
-  echo "$line"
-  python3 synthesize.py --text "$line" --restore_step 90000 --mode single -p config/Sara/preprocess.yaml -m config/Sara/model.yaml -t config/Sara/train.yaml
-done <<< "$sara_phone"
+  echo "Synthesising with zilberberg phone..."
+  echo "$file"
+  utt=$(cat "$path/$file")
+
+  python3 synthesize.py --text "$utt" --restore_step 90000 --mode single -p config/Herbikher/preprocess.yaml -m config/Herbikher/model.yaml -t config/Herbikher/train.yaml
+done <<< "$zil_rb"
