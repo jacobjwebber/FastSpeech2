@@ -1,5 +1,7 @@
 #!/bin/sh
 
+nvidia-smi
+
 # phone
 path="../yiddish-tts/test/gold-labs/zilberberg/a/respelt"
 zil_ra=`ls -1 "$path"`

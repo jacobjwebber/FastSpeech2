@@ -1,5 +1,7 @@
 #!/bin/sh
 
+nvidia-smi
+
 # baseline
 path="../yiddish-tts/test/gold-labs/zilberberg/a/normalised"
 zil_ba=`ls -1 "$path"`
